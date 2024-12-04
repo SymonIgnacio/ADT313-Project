@@ -1,11 +1,12 @@
 .card-cast-data {
     max-width: 181px;
-    border: 20px solid #4f4f60;
-    background-color: #4f4f60;
+    border: 20px solid #47663B;
+    background-color: #47663B;
     border-radius: 10px;
     color: white;
     text-align: center;
     font-weight: none;
+    font-family: monospace;
 }
 
 .card-cast-data img {
@@ -15,8 +16,8 @@
 }
 
 .card-cast-data:hover {
-    border: 20px solid #373745;
-    background-color: #373745;
+    border: 20px solid #E8ECD7;
+    background-color: #E8ECD7;
 }
 
 .spacing-cast-card {

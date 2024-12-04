@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(41, 43, 52);
+  background-color: #1F4529; /* Updated color */
 }
 
 .main-container {
@@ -12,6 +12,7 @@ body {
 
 .page-title {
   font-size: 4.5rem;
+  color: #E8ECD7; /* Updated color */
 }
 
 .list-container {
@@ -43,7 +44,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(41, 78, 43, 0.521);
   color: white;
   font-size: 18px;
   text-align: center;
@@ -67,6 +68,7 @@ body {
   font-size: 3rem;
   width: 100%;
   padding: 2rem;
+  color: #E8ECD7; 
 }
 
 .movies-list {
@@ -88,6 +90,8 @@ body {
   padding: 70px;
   display: flex;
   background-color: rgba(53, 58, 63, 0.8);
+  font-size: 20pt;
+  font-family: monospace;
 }
 
 .Title-Description-Box {
@@ -97,6 +101,7 @@ body {
 
 .overview-movies-p {
   width: 100%;
+  color: #E8ECD7; /* Updated color */
 }
 
 .PostPath-Img {
@@ -115,9 +120,10 @@ body {
 }
 
 .title-text-movie-lists {
-  font-size: 30pt;
+  font-size:30pt;
   text-align: center;
-  color: white;
+  font-family: monospace;
+  color: #E8ECD7; /* Updated color */
 }
 
 @media (max-width: 990px) {

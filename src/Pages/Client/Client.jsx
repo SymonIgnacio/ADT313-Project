@@ -40,7 +40,7 @@ function Client() {
     return (
         <main className="box">
             <header>
-                <h1 className="title-text" onClick={() => navigate('/home')}>MovieWebDB</h1>
+                <h1 className="title-text" onClick={() => navigate('/home')}>JustNood</h1>
                 <button className="button" id="toggleButton">
                     <div className="button-container">
                         <div className="divnav"></div>
@@ -57,7 +57,7 @@ function Client() {
             <footer>
                 <div className="text-rights">
                     <p className='size-font'>
-                        &copy; 2024 MovieWebDB - All rights reserved.
+                        &copy; 2024 JustNood - All rights reserved.
                         Data provided by <a className='link-color' href="https://www.themoviedb.org" target="_blank" rel="noopener noreferrer">(TMDb)</a>
                     </p>
                     <p className='size-font'>

@@ -47,7 +47,8 @@
 }
 
 .info-movie-flex {
-   font-size: 10pt;
+   font-size: 12pt;
+   font-family: monospace;
    width: 400px;
    color: white;
    z-index: 1;
@@ -66,7 +67,7 @@
 }
 
 .Slide-Viewer::-webkit-scrollbar {
-   height: 8px;
+   height: 10px;
    width: 8px;
 }
 
@@ -90,7 +91,7 @@
 }
 
 .Slider-Color {
-   background-color: #29293f;
+   background-color: #47663B;
 }
 
 .modal {
