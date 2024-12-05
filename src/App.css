@@ -1,0 +1,28 @@
+.color-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.color-page::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../src/Utilities/Pics/main-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  filter: blur(10px); /* Adjust the blur intensity as needed */
+  z-index: -1;
+}
+
+.color-page > * {
+  position: relative;
+  z-index: 1;
+}
