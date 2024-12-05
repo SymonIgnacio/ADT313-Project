@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .Login-Form {
     width: 400px;
     height: auto;
@@ -181,4 +182,189 @@
     .Login-Form .form-check input[type="checkbox"]:checked {
         background-color: #000; 
         border-color: #cac9ca; 
+=======
+.Login-Form {
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(15px) saturate(180%);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); 
+   
+}
+
+.Login-Form h1.text-title {
+    font-weight: bolder;
+    font-size: 1.8rem;
+    color: #070707;
+    margin-bottom: 10px;
+}
+
+.Login-Form p.text-description {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #251e05;
+    margin-bottom: 20px;
+}
+
+.Login-Form .box-form {
+    text-align: left;
+}
+
+.Login-Form .box-form label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #F0EAD6;
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.Login-Form .box-form input[type="text"],
+.Login-Form .box-form input[type="password"] {
+    width: calc(100% - 20px);
+    max-width: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    transition: border 0.3s;
+    text-align: left;
+}
+
+.Login-Form .box-form input:focus {
+    outline: none;
+    border: 1px solid #000000;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+.Login-Form .form-check {
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.button-box-login {
+    text-align: center;
+}
+
+.Login-Form .form-check .showpassword-login {
+    font-size: 0.85rem;
+    color: #F0EAD6;
+}
+
+.Login-Form .btn {
+    background: linear-gradient(to right, #4e4d3e, #A59D84);
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.Login-Form .btn:hover {
+    background: linear-gradient(to right, #A59D84, #4e4d3e);
+    transform: translateY(-3px);
+}
+
+.Login-Form .btn:disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+}
+
+.Login-Form .text-center a {
+    font-size: 0.85rem;
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.Login-Form .text-center a:hover {
+    color: #000000;
+}
+
+.text-danger {
+    font-size: 0.85rem;
+    color: #ff4d4f;
+    text-align: left;
+    display: block;
+}
+
+.text-message-box {
+    width: 100%;
+    height: 40px;
+    background-color: #ffa0a1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: #ff4d4f solid 1px;
+    color: #ffffff;
+}
+
+@media (max-width: 500px) {
+    .Login-Form {
+        width: 300px;
+        height: auto;
+    }
+
+    .Login-Form h1.text-title {
+        font-size: 1.3rem;
+    }
+
+    .Login-Form p.text-description {
+        font-size: 0.8rem;
+        color: #3d2424;
+        margin-bottom: 20px;
+    }
+
+    .Login-Form .box-form label {
+        font-size: 1.0rem;
+        margin-top: -8px;
+    }
+
+    .Login-Form .box-form input[type="text"],
+    .Login-Form .box-form input[type="password"] {
+        width: calc(100% - 18px);
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+
+    .Login-Form .form-check label {
+        font-size: 0.75rem;
+        color: #666666;
+    }
+
+    .Login-Form .text-center a:hover {
+        color: #020102;
+    }
+
+    .text-danger {
+        margin-top: -10px;
+    }
+    }.Login-Form .form-check input[type="checkbox"] {
+        width: 15px; 
+        height: 15px;
+        appearance: none; 
+        background-color: #fff; 
+        border: 3px solid #fdfdfd; 
+        border-radius: 50%; 
+        cursor: pointer;
+        transition: background-color 0.3s, border 0.3s;
+    }
+
+    .Login-Form .form-check input[type="checkbox"]:checked {
+        background-color: #000; 
+        border-color: #cac9ca; 
+>>>>>>> 8ab920eb96f4730a2701f828e846aa155e722628
     }

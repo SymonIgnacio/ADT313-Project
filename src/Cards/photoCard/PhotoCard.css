@@ -1,3 +1,35 @@
+<<<<<<< HEAD
+.card-photo-data {
+    max-width: 281px;
+    border: 20px solid #47663B;
+    background-color: #47663B;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-weight: none;
+}
+
+.card-photo-data img {
+    max-width: 281px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.card-photo-data:hover {
+    border: 20px solid #E8ECD7;
+    background-color: #E8ECD7;
+}
+
+@media (max-width: 500px) {
+    .card-photo-data img {
+        max-width: 181px;
+    }
+
+    .card-photo-data {
+        max-width: 181px;
+        font-size: 8pt;
+    }
+=======
 .card-photo-data {
     max-width: 281px;
     border: 20px solid #4f4f60;
@@ -28,4 +60,5 @@
         max-width: 181px;
         font-size: 8pt;
     }
+>>>>>>> 8ab920eb96f4730a2701f828e846aa155e722628
 }
