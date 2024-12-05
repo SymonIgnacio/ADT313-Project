@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useContext, useCallback, useRef } from 'react';
-import { AuthContext } from '../../../../TUtili/Auth/Auth';
+import { AuthContext } from '../../../../Utilities/Auth/Auth';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrashAlt, faEdit } from '@fortawesome/free-solid-svg-icons';
 import axios from 'axios';
-import './Cast-Form.css';
+import './Cast.css';
 import { useParams } from 'react-router-dom';
 
 function Cast() {
@@ -361,7 +361,7 @@ function Cast() {
                     ? `https://image.tmdb.org/t/p/original/${selectedcast.profile_path}`
                     : selectedcast?.url
                       ? selectedcast.url
-                      : require('./../../../../utils/images/—Pngtree—portrait watercolor blue sky abstract_1789044.png')
+                      : require('./../../../../Utilities/Pics/gray-textured-wall.jpg')
                   }
                   className='img-cast'
                 />

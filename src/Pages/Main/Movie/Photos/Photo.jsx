@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext, useCallback, useRef } from 'react'
-import { AuthContext } from '../../../../utils/context/AuthContext'
-import './Photo-Form.css'
+import { AuthContext } from '../../../../Utilities/Auth/Auth';
+import './Photo.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrashAlt, faEdit } from '@fortawesome/free-solid-svg-icons';
 import axios from 'axios'

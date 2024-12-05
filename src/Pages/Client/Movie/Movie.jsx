@@ -1,11 +1,11 @@
 import React, { useEffect, useContext, useCallback, useState } from 'react';
-import { AuthContext } from '../../../utils/context/AuthContext';
+import { AuthContext } from '../../../Utilities/Auth/Auth';
 import { useNavigate, useParams } from 'react-router-dom';
 import axios from 'axios';
 import './Movie.css'
-import CastCards from '../../../components/castCards/CastCards';
-import VideoCards from '../../../components/videoCards/VideoCards';
-import PhotoCards from '../../../components/photoCards/PhotoCards';
+import CastCards from '../../../Cards/castCards/CastCard';
+import VideoCards from '../../../Cards/videoCard/VideoCard';
+import PhotoCards from '../../../Cards/photoCard/PhotoCard';
 
 function Movie() {
   const { auth, movie, setMovie } = useContext(AuthContext);

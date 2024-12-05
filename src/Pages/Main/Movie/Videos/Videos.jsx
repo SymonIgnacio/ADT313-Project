@@ -1,10 +1,10 @@
 import React, { useEffect, useState, useContext, useCallback, useRef } from 'react';
-import { AuthContext } from '../../../../utils/context/AuthContext';
+import { AuthContext } from '../../../../Utilities/Auth/Auth';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrashAlt, faEdit } from '@fortawesome/free-solid-svg-icons';
 import axios from 'axios'
 import { useParams } from 'react-router-dom';
-import './Video-Form.css'
+import './Videos.css'
 
 function VideosForm() {
   const { auth } = useContext(AuthContext);
