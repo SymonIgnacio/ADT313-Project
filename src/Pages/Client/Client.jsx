@@ -106,3 +106,11 @@ function Client() {
 }
 
 export default Client;
+   </div>
+                </ul>
+            </div>
+        </main>
+    );
+}
+
+export default Client;
