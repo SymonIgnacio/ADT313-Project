@@ -35,7 +35,6 @@ const Form = () => {
         const castTab = document.querySelector('.cast-tab');
         const videoTab = document.querySelector('.video-tab');
         const photoTab = document.querySelector('.photo-tab');
-
         switch (tab) {
             case 'cast':
                 if (castTab) {
