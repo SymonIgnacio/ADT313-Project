@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <?php
 header("Content-Type: application/json");
 
@@ -112,5 +112,5 @@ try {
     echo json_encode(['error' => $e->getMessage()]);
 } catch (Exception $e) {
     echo json_encode(['error' => $e->getMessage()]);
->>>>>>> 8ab920eb96f4730a2701f828e846aa155e722628
+
 }

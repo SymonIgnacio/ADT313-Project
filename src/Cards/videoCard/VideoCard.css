@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .card-video-data {
     max-width: 340px;
     border: 20px solid #47663B;
@@ -29,7 +29,7 @@
         max-width: w30px;
         font-size: 8pt;
     }
-=======
+
 .card-video-data {
     max-width: 340px;
     border: 20px solid #4f4f60;
@@ -60,5 +60,5 @@
         max-width: w30px;
         font-size: 8pt;
     }
->>>>>>> 8ab920eb96f4730a2701f828e846aa155e722628
+}
 }
